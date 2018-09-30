@@ -1,4 +1,4 @@
-# Search Code in Github
+# Search Code in GitHub
 
 Find the frequency of use of the codes in Github.
 
