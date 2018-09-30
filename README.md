@@ -2,6 +2,8 @@
 
 Find the frequency of use of the codes in Github.
 
+![image](./images/image.png)
+
 ## Usage
 
 #### 0. Install `octokit.rb`
