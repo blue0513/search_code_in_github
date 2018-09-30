@@ -4,7 +4,7 @@ require 'yaml'
 @search_word = []
 @result_hash = {}
 
-config = YAML.load_file('config.yml')
+config = YAML.load_file(File.expand_path('config.yml', __dir__))
 access_token = config.dig('config', 'access_token')
 
 ARGV.each_with_index do |arg, i|
